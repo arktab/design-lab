@@ -210,7 +210,7 @@ body{
 }
 
 .photo__grid--img{
-	
+
 }
 
 .photo__grid--text{
@@ -234,8 +234,8 @@ body{
 
 .container_footer{
 	display: flex;
-	-webkit-justify-content: center;
-	        justify-content: center;		
+	justify-content: center;
+	align-items: center;
 }
 
 .footer{
@@ -249,4 +249,7 @@ body{
 	width: 40px;
 	height: 40px;
 	fill: var(--color);
+}
+.f-text{
+	padding-left: 50px;
 }
